@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maksem Kokoreç</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fff0f0;
+        }
+
+        .hero {
+            background-image: url('https://i.imgur.com/lZ6Pzjl.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px black;
+        }
+
+        footer {
+            background-color: #111;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Üst görsel -->
+    <div class="hero">
+        <h1 class="display-4 fw-bold">Maksem Kokoreç</h1>
+    </div>
+
+    <!-- Menü listesi -->
+    <div class="container text-center mt-5">
+        <h2>Menümüz</h2>
+        <ul class="list-group list-group-flush mt-3">
+            <li class="list-group-item">Dürüm Kokoreç</li>
+            <li class="list-group-item">Yarım Ekmek Kokoreç</li>
+            <li class="list-group-item">Döner</li>
+            <li class="list-group-item">Midye</li>
+        </ul>
+    </div>
+
+    <!-- Yorumlar -->
+    <div class="container mt-5">
+        <h3>Müşteri Yorumları</h3>
+        <blockquote class="blockquote">
+            <p>“Hayatımda yediğim en iyi kokoreçti!”</p>
+            <footer class="blockquote-footer">Ahmet Yılmaz</footer>
+        </blockquote>
+        <blockquote class="blockquote">
+            <p>“Temiz, hızlı ve çok lezzetli. Şiddetle tavsiye ederim.”</p>
+            <footer class="blockquote-footer">Zeynep Kara</footer>
+        </blockquote>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-5">
+        <h5>Rosoi is one of the most popular Restaurant & special menu made by our passionate chefs</h5>
+        <p>Powered by Webflow</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">Restaurant<br>About us<br>Our Menu</div>
+                <div class="col-md-4">Book a Table<br>Blog Post<br>Contact</div>
+                <div class="col-md-4">245 D, South City, Mixed Tower, New York, USA<br>
+                    info@examplesite.com<br>
+                    +12345 678 910
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
